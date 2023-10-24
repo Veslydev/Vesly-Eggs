@@ -5,9 +5,9 @@
         "update_url": null
     },
     "exported_at": "2023-05-08T18:35:23-03:00",
-    "name": "Paper (Super-Optimized)",
-    "author": "parker@pterodactyl.io",
-    "description": "\ud83d\udc8e Egg: Paper (Super-Optimized)\r\n\u2699\ufe0f Version: 1.1\r\n\u2753 What: A branch of Spigot from Alto performance aimed at fixing gameplay and mechanical inconsistencies, but now with an optimization super path by Ashu.\r\n\ud83d\udc1b Bugs fixed\/changelogs:\r\n \u2022 (1.0) Release.\r\n \u2022 (1.0) All done by scripts, better maintenance and updating.\r\n\ud83e\ude84 What's different ?\r\n \u2022 Optimizations list: https:\/\/github.com\/Ashu11-A\/Ashu_eggs\/blob\/main\/Paper%20Optimized\r\n \u2022 This Egg has several Optimizations in the default files.\r\n \u2022 There is a variable called Optimization that changes the boot argument which will significantly improve performance .\r\n \ud83d\udce6 Docker: \r\n \u2022 Compatibility with ARM64, 64x\r\n\ud83d\udc51 Author: Ashu\r\n\ud83d\udc40 Check for updates: https :\/\/github.com\/Ashu11-A\/Ashu_eggs",
+    "name": "MC-Paper-Vesly",
+    "author": "utku@vesly.dev",
+    "description": "\ud83d\udc8e Egg: Minecraft Paper (Super-Optimized)\r\n\u2699\ufe0f Version: 1.1\r\n\u2753 What: A branch of Spigot from Alto performance aimed at fixing gameplay and mechanical inconsistencies, but now with an optimization super path by Vesly.\r\n\ud83d\udc1b Bugs fixed\/changelogs:\r\n \u2022 (1.0) Release.\r\n \u2022 (1.0) All done by scripts, better maintenance and updating.\r\n\ud83e\ude84 What's different ?\r\n \u2022 Optimizations list: https:\/\/github.com\/Veslydev\/Vesly-Eggs\/blob\/main\/Paper-Optimized\r\n \u2022 This Egg has several Optimizations in the default files.\r\n \u2022 There is a variable called Optimization that changes the boot argument which will significantly improve performance .\r\n \ud83d\udce6 Docker: \r\n \u2022 Compatibility with ARM64, 64x\r\n\ud83d\udc51 Author: Utku\r\n\ud83d\udc40 Check for updates: https :\/\/github.com\/Veslydev\/Vesly-Eggs",
     "features": [
         "eula",
         "java_version",
@@ -30,7 +30,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\ncd \/mnt\/server\r\napk --update add git curl file unzip tar autoconf automake git wget jq\r\ncurl -o install.sh https:\/\/raw.githubusercontent.com\/Veslydev\/Vesly-Eggs\/main\/Paper-Optimized\/install.sh\r\nchmod a+x .\/install.sh\r\n.\/install.sh\r\nrm .\/install.sh",
-            "container": "ghcr.io\/ashu11-a\/installers:alpine",
+            "container": "ghcr.io\/vesly\/installers:alpine",
             "entrypoint": "bash"
         }
     },
