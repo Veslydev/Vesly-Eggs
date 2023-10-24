@@ -4,7 +4,7 @@ bold=$(echo -en "\e[1m")
 lightblue=$(echo -en "\e[94m")
 normal=$(echo -en "\e[0m")
 
-if [ -z "${OPTIMIZE}" ]; then ## Caso a variavel ${OPTIMIZE} não existir por algum motivo desconhecido
+if [ -z "${OPTIMIZE}" ]; then ## Bilinmeyen bir nedenle ${OPTIMIZE} değişkeni mevcut değilse
     START="java -Xms128M -Xmx${SERVER_MEMORY}M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar ${SERVER_JARFILE}"
 else
     if [ "${OPTIMIZE}" = "(0) Geral" ]; then

@@ -12,11 +12,11 @@
 </div>
 <div align="left">
 
-## 📃 | Description
+## 📃 | Açıklama
 
-In this repository you can find some Eggs that I [@Vesly](https://vesly.dev) developed.
+Bu repositoryde bazı pterodacytyl eggleri bulabilirsiniz.
 
-Did you like the Eggs? Then give the repository a 🌟!
+Pterodactyl egglerini beğendiniz mi? O zaman depoya bir 🌟 verin!
 
 </div>
 <div align="center">
@@ -25,16 +25,16 @@ Did you like the Eggs? Then give the repository a 🌟!
 
 </div>
 
-## 🎮 | Games
-| Game | file* | More info |
+## 🎮 | Oyunlar
+| Oyun | dosya* | Daha fazla bilgi |
 |--|--|--|
-| Minecraft (Paper Optimized) | [egg-paper-super-optimized.json](https://github.com/Veslydev/Vesly-Eggs/raw/main/Eggs/egg-paper-super-optimized.json)  | Minecraft Paper but super optimized
+| Minecraft (Paper Optimize Edilmiş) | [egg-paper-super-optimized.json](https://github.com/Veslydev/Vesly-Eggs/raw/main/Eggs/egg-paper-super-optimized.json)  | Minecraft Paper ama süper optimize edilmiş
 
 
-- Click with the **right button** and **Save link as**...  
+- Sağ tuş ile tıklayın ve Bağlantıyı farklı kaydet...
 
 ## 📁 | Contact
 
 ```Discord: veslydev```\
 ```E-Mail: utku@vesly.dev```\
-```Personal Website: Vesly.dev```
+[Website](https://vesly.dev)
